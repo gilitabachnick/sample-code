@@ -10,4 +10,14 @@ while True:
     print("you were off by one")
   else:
     print("sorry, maybe next time!")
+Names = ["Aviad", "Gili", "Zevi", "Sari"] 
+i =0
+for Name in Names:
+   if Names[i] != "Zevi":
+    print(f"{Name}")
+    i+= 1
+   else:
+    print(f"{Name}"+""+"Jacobson")
+    i+= 1
+  
   
